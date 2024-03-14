@@ -22,6 +22,16 @@ spring:
   rabbitmq:
     addresses: amqps://mljkagar:MExiJHCtACAqeCQ6tXwDphIg6ENupSJk@toad.rmq.cloudamqp.com/mljkagar
 
+ead:
+  broker:
+    exchange:
+      notificationCommandExchange: ead.notificationcommand
+    queue:
+      notificationCommandQueue:
+        name: ead.notificationcommand.ms.notification
+    key:
+      notificationCommandKey: ms.notification
+
 eureka:
   client:
     serviceUrl:
