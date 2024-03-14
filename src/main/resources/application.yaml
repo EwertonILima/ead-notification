@@ -19,6 +19,8 @@ spring:
     properties:
       hibernate:
         show_sql: true
+  rabbitmq:
+    addresses: amqps://mljkagar:MExiJHCtACAqeCQ6tXwDphIg6ENupSJk@toad.rmq.cloudamqp.com/mljkagar
 
 eureka:
   client:
