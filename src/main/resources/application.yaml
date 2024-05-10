@@ -1,1 +1,5 @@
-spring.application.name=notification-hex
+spring:
+  profiles:
+    active: dev
+  application:
+    name: ead-notification-service-hex
